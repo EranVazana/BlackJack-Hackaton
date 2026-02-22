@@ -1,0 +1,637 @@
+{
+  "games": {
+    "1": {
+      "team_name": "Eran The Hacker",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 1, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "Q", "suit": "S" }, { "rank": "4", "suit": "D" }],
+        [{ "rank": "2", "suit": "C" }, { "rank": "K", "suit": "H" }, { "rank": "K", "suit": "S" }],
+        [{ "rank": "A", "suit": "C" }, { "rank": "10", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "7", "suit": "S" }, { "rank": "6", "suit": "C" }, { "rank": "5", "suit": "D" }],
+        [{ "rank": "J", "suit": "H" }, { "rank": "5", "suit": "H" }, { "rank": "4", "suit": "C" }],
+        [{ "rank": "J", "suit": "H" }, { "rank": "Q", "suit": "C" }]
+      ],
+      "client_round_busts": [1],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.340565443], [2.832552194], [5.940578460]],
+      "total_game_time": 11.12359609
+    },
+    "2": {
+      "team_name": "Liel",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 1, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "6", "suit": "D" }, { "rank": "8", "suit": "H" }],
+        [{ "rank": "8", "suit": "C" }, { "rank": "J", "suit": "D" }],
+        [{ "rank": "J", "suit": "D" }, { "rank": "Q", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "K", "suit": "D" }, { "rank": "10", "suit": "D" }],
+        [{ "rank": "A", "suit": "S" }, { "rank": "9", "suit": "C" }],
+        [{ "rank": "10", "suit": "H" }, { "rank": "6", "suit": "H" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [2],
+      "client_response_time_in_game": [[4.579875230], [3.507731914], [3.474150896]],
+      "total_game_time": 11.58175804
+    },
+    "3": {
+      "team_name": "HackStreetBoys",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 1, "2": 1, "1": 1 },
+      "client_game_cards": [
+        [{ "rank": "A", "suit": "S" }, { "rank": "K", "suit": "D" }],
+        [{ "rank": "5", "suit": "H" }, { "rank": "5", "suit": "C" }, { "rank": "K", "suit": "S" }],
+        [{ "rank": "10", "suit": "C" }, { "rank": "10", "suit": "H" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "9", "suit": "D" }, { "rank": "8", "suit": "H" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "9", "suit": "C" }],
+        [{ "rank": "K", "suit": "H" }, { "rank": "Q", "suit": "S" }]
+      ],
+      "client_round_busts": [1],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.243], [3.551], [1.899]],
+      "total_game_time": 6.71450012
+    },
+    "4": {
+      "team_name": "ProtocolDroids",
+      "number_of_rounds": 4,
+      "game_stats": { "3": 3, "2": 1, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "7", "suit": "D" }, { "rank": "3", "suit": "C" }, { "rank": "A", "suit": "H" }],
+        [{ "rank": "K", "suit": "S" }, { "rank": "2", "suit": "D" }, { "rank": "10", "suit": "H" }],
+        [{ "rank": "9", "suit": "C" }, { "rank": "9", "suit": "H" }],
+        [{ "rank": "A", "suit": "S" }, { "rank": "9", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "5", "suit": "S" }, { "rank": "6", "suit": "H" }, { "rank": "K", "suit": "C" }],
+        [{ "rank": "A", "suit": "D" }, { "rank": "10", "suit": "S" }],
+        [{ "rank": "5", "suit": "C" }, { "rank": "4", "suit": "D" }, { "rank": "8", "suit": "S" }],
+        [{ "rank": "7", "suit": "H" }, { "rank": "10", "suit": "C" }]
+      ],
+      "client_round_busts": [1],
+      "server_round_busts": [0],
+      "client_response_time_in_game": [[2.112, 1.055], [3.401, 1.200], [1.555], [0.988]],
+      "total_game_time": 10.33400035
+    },
+    "5": {
+      "team_name": "CyberKnights",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 0, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "2", "suit": "H" }, { "rank": "3", "suit": "S" }, { "rank": "5", "suit": "D" }, { "rank": "K", "suit": "C" }],
+        [{ "rank": "J", "suit": "H" }, { "rank": "6", "suit": "C" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "D" }, { "rank": "8", "suit": "S" }],
+        [{ "rank": "9", "suit": "H" }, { "rank": "8", "suit": "C" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.500, 1.200, 1.100], [4.200]],
+      "total_game_time": 8.02450012
+    },
+    "6": {
+      "team_name": "TCP_Terminators",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 1, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "K", "suit": "C" }],
+        [{ "rank": "5", "suit": "D" }, { "rank": "7", "suit": "S" }, { "rank": "J", "suit": "H" }],
+        [{ "rank": "9", "suit": "C" }, { "rank": "8", "suit": "H" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "A", "suit": "S" }, { "rank": "K", "suit": "D" }],
+        [{ "rank": "10", "suit": "C" }, { "rank": "8", "suit": "D" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "8", "suit": "H" }]
+      ],
+      "client_round_busts": [1],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.2], [3.4], [2.1]],
+      "total_game_time": 6.74500000
+    },
+    "7": {
+      "team_name": "UDP_Unreliable",
+      "number_of_rounds": 1,
+      "game_stats": { "3": 0, "2": 1, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "2", "suit": "H" }, { "rank": "3", "suit": "D" }, { "rank": "K", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "C" }, { "rank": "7", "suit": "H" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[0.5]],
+      "total_game_time": 0.51200000
+    },
+    "8": {
+      "team_name": "Sudo_Winners",
+      "number_of_rounds": 4,
+      "game_stats": { "3": 2, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "A", "suit": "H" }, { "rank": "K", "suit": "C" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "J", "suit": "D" }],
+        [{ "rank": "5", "suit": "H" }, { "rank": "5", "suit": "D" }, { "rank": "5", "suit": "S" }],
+        [{ "rank": "Q", "suit": "H" }, { "rank": "2", "suit": "C" }, { "rank": "9", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "D" }, { "rank": "7", "suit": "H" }],
+        [{ "rank": "A", "suit": "S" }, { "rank": "Q", "suit": "C" }],
+        [{ "rank": "8", "suit": "C" }, { "rank": "8", "suit": "H" }, { "rank": "6", "suit": "D" }],
+        [{ "rank": "K", "suit": "S" }, { "rank": "J", "suit": "H" }]
+      ],
+      "client_round_busts": [0, 3],
+      "server_round_busts": [1, 2],
+      "client_response_time_in_game": [[1.1], [1.2], [4.5], [2.3]],
+      "total_game_time": 9.15500000
+    },
+    "9": {
+      "team_name": "Kernel_Panic",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 1, "2": 0, "1": 1 },
+      "client_game_cards": [
+        [{ "rank": "9", "suit": "H" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "7", "suit": "C" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "8", "suit": "S" }],
+        [{ "rank": "6", "suit": "D" }, { "rank": "5", "suit": "C" }, { "rank": "6", "suit": "H" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.2], [2.1]],
+      "total_game_time": 4.34000000
+    },
+    "10": {
+      "team_name": "Bit_Flippers",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 3, "2": 0, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "J", "suit": "H" }, { "rank": "K", "suit": "H" }],
+        [{ "rank": "A", "suit": "D" }, { "rank": "9", "suit": "C" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "8", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "5", "suit": "C" }, { "rank": "6", "suit": "S" }, { "rank": "7", "suit": "D" }],
+        [{ "rank": "8", "suit": "H" }, { "rank": "8", "suit": "C" }, { "rank": "2", "suit": "S" }],
+        [{ "rank": "6", "suit": "H" }, { "rank": "5", "suit": "D" }, { "rank": "K", "suit": "S" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [2],
+      "client_response_time_in_game": [[1.5], [1.5], [1.8]],
+      "total_game_time": 4.86000000
+    },
+    "11": {
+      "team_name": "Localhost_Legends",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 0, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "8", "suit": "H" }, { "rank": "5", "suit": "C" }, { "rank": "Q", "suit": "S" }],
+        [{ "rank": "2", "suit": "D" }, { "rank": "3", "suit": "H" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "K", "suit": "D" }, { "rank": "9", "suit": "H" }],
+        [{ "rank": "A", "suit": "C" }, { "rank": "K", "suit": "S" }]
+      ],
+      "client_round_busts": [0],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[3.2], [0.8]],
+      "total_game_time": 4.02500000
+    },
+    "12": {
+      "team_name": "Byte_Me",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 1, "2": 1, "1": 1 },
+      "client_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "7", "suit": "C" }],
+        [{ "rank": "A", "suit": "S" }, { "rank": "A", "suit": "D" }],
+        [{ "rank": "9", "suit": "H" }, { "rank": "K", "suit": "C" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "8", "suit": "S" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "10", "suit": "H" }, { "rank": "7", "suit": "S" }],
+        [{ "rank": "J", "suit": "D" }, { "rank": "6", "suit": "C" }, { "rank": "4", "suit": "H" }]
+      ],
+      "client_round_busts": [1],
+      "server_round_busts": [2],
+      "client_response_time_in_game": [[1.9], [0.5], [2.2]],
+      "total_game_time": 4.65000000
+    },
+    "13": {
+      "team_name": "Ping_Pong_Players",
+      "number_of_rounds": 4,
+      "game_stats": { "3": 2, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "J", "suit": "C" }, { "rank": "Q", "suit": "H" }],
+        [{ "rank": "2", "suit": "D" }, { "rank": "2", "suit": "S" }, { "rank": "3", "suit": "H" }, { "rank": "4", "suit": "C" }],
+        [{ "rank": "10", "suit": "H" }, { "rank": "6", "suit": "S" }, { "rank": "5", "suit": "D" }],
+        [{ "rank": "A", "suit": "C" }, { "rank": "8", "suit": "H" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "5", "suit": "S" }, { "rank": "6", "suit": "D" }, { "rank": "8", "suit": "C" }],
+        [{ "rank": "10", "suit": "D" }, { "rank": "K", "suit": "S" }],
+        [{ "rank": "9", "suit": "H" }, { "rank": "8", "suit": "S" }],
+        [{ "rank": "7", "suit": "C" }, { "rank": "8", "suit": "D" }, { "rank": "2", "suit": "H" }]
+      ],
+      "client_round_busts": [3],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.0], [5.5], [2.1], [1.1]],
+      "total_game_time": 9.78000000
+    },
+    "14": {
+      "team_name": "404_Win_Not_Found",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 0, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "4", "suit": "H" }, { "rank": "6", "suit": "D" }, { "rank": "K", "suit": "S" }],
+        [{ "rank": "8", "suit": "C" }, { "rank": "5", "suit": "S" }, { "rank": "9", "suit": "H" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "C" }, { "rank": "8", "suit": "D" }],
+        [{ "rank": "J", "suit": "H" }, { "rank": "Q", "suit": "S" }]
+      ],
+      "client_round_busts": [1],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.5], [2.6]],
+      "total_game_time": 5.14000000
+    },
+    "15": {
+      "team_name": "Stack_Overflow",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 2, "2": 1, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "A", "suit": "S" }, { "rank": "10", "suit": "D" }],
+        [{ "rank": "7", "suit": "H" }, { "rank": "8", "suit": "C" }],
+        [{ "rank": "K", "suit": "H" }, { "rank": "J", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "5", "suit": "C" }, { "rank": "5", "suit": "H" }, { "rank": "K", "suit": "D" }],
+        [{ "rank": "9", "suit": "S" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "4", "suit": "C" }, { "rank": "6", "suit": "H" }, { "rank": "A", "suit": "S" }]
+      ],
+      "client_round_busts": [0],
+      "server_round_busts": [2],
+      "client_response_time_in_game": [[1.2], [1.4], [1.3]],
+      "total_game_time": 3.96000000
+    },
+    "16": {
+      "team_name": "Git_Push_Force",
+      "number_of_rounds": 1,
+      "game_stats": { "3": 1, "2": 0, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "9", "suit": "C" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "8", "suit": "S" }, { "rank": "6", "suit": "D" }, { "rank": "4", "suit": "H" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.8]],
+      "total_game_time": 1.83000000
+    },
+    "17": {
+      "team_name": "Python_Charmers",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 0, "2": 0, "1": 3 },
+      "client_game_cards": [
+        [{ "rank": "10", "suit": "D" }, { "rank": "8", "suit": "C" }],
+        [{ "rank": "9", "suit": "H" }, { "rank": "K", "suit": "S" }],
+        [{ "rank": "7", "suit": "C" }, { "rank": "A", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "9", "suit": "S" }, { "rank": "9", "suit": "H" }],
+        [{ "rank": "10", "suit": "C" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "8", "suit": "S" }, { "rank": "J", "suit": "H" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.0], [2.1], [1.9]],
+      "total_game_time": 6.06000000
+    },
+    "18": {
+      "team_name": "The_Blackjacks",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 1, "2": 1, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "K", "suit": "H" }, { "rank": "A", "suit": "S" }],
+        [{ "rank": "5", "suit": "C" }, { "rank": "5", "suit": "D" }, { "rank": "A", "suit": "H" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "J", "suit": "C" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "10", "suit": "H" }, { "rank": "7", "suit": "S" }]
+      ],
+      "client_round_busts": [0],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.1], [3.3]],
+      "total_game_time": 4.45000000
+    },
+    "19": {
+      "team_name": "Net_Ninjas",
+      "number_of_rounds": 4,
+      "game_stats": { "3": 4, "2": 0, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "10", "suit": "D" }, { "rank": "J", "suit": "C" }],
+        [{ "rank": "K", "suit": "S" }, { "rank": "Q", "suit": "H" }],
+        [{ "rank": "9", "suit": "C" }, { "rank": "A", "suit": "D" }],
+        [{ "rank": "8", "suit": "H" }, { "rank": "8", "suit": "S" }, { "rank": "5", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "9", "suit": "H" }, { "rank": "8", "suit": "C" }],
+        [{ "rank": "7", "suit": "D" }, { "rank": "5", "suit": "S" }, { "rank": "6", "suit": "H" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "8", "suit": "H" }],
+        [{ "rank": "J", "suit": "C" }, { "rank": "6", "suit": "D" }, { "rank": "4", "suit": "S" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.5], [1.4], [1.6], [3.2]],
+      "total_game_time": 7.78000000
+    },
+    "20": {
+      "team_name": "Cyber_Samurai",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 0, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "2", "suit": "C" }, { "rank": "3", "suit": "D" }, { "rank": "4", "suit": "H" }, { "rank": "5", "suit": "S" }, { "rank": "K", "suit": "C" }],
+        [{ "rank": "J", "suit": "S" }, { "rank": "Q", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "10", "suit": "S" }],
+        [{ "rank": "A", "suit": "C" }, { "rank": "K", "suit": "H" }]
+      ],
+      "client_round_busts": [0],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[6.5], [1.2]],
+      "total_game_time": 7.75000000
+    },
+    "21": {
+      "team_name": "Route_66",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 1, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "6", "suit": "C" }],
+        [{ "rank": "K", "suit": "S" }, { "rank": "2", "suit": "D" }, { "rank": "J", "suit": "H" }],
+        [{ "rank": "9", "suit": "D" }, { "rank": "8", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "8", "suit": "C" }, { "rank": "5", "suit": "H" }, { "rank": "7", "suit": "D" }],
+        [{ "rank": "A", "suit": "S" }, { "rank": "10", "suit": "C" }],
+        [{ "rank": "K", "suit": "D" }, { "rank": "8", "suit": "H" }]
+      ],
+      "client_round_busts": [1],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.6], [2.8], [1.9]],
+      "total_game_time": 6.35000000
+    },
+    "22": {
+      "team_name": "LAN_Lords",
+      "number_of_rounds": 1,
+      "game_stats": { "3": 1, "2": 0, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "A", "suit": "H" }, { "rank": "8", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "9", "suit": "C" }, { "rank": "8", "suit": "S" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.1]],
+      "total_game_time": 1.12000000
+    },
+    "23": {
+      "team_name": "WAN_Wanderers",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 0, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "7", "suit": "C" }, { "rank": "8", "suit": "H" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "4", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "K", "suit": "H" }, { "rank": "8", "suit": "D" }],
+        [{ "rank": "Q", "suit": "C" }, { "rank": "7", "suit": "S" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.3], [2.0]],
+      "total_game_time": 4.33000000
+    },
+    "24": {
+      "team_name": "Packet_Loss",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 1, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "2", "suit": "H" }, { "rank": "2", "suit": "D" }, { "rank": "2", "suit": "C" }, { "rank": "2", "suit": "S" }, { "rank": "3", "suit": "H" }],
+        [{ "rank": "K", "suit": "D" }, { "rank": "K", "suit": "C" }],
+        [{ "rank": "5", "suit": "S" }, { "rank": "6", "suit": "H" }, { "rank": "J", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "8", "suit": "S" }, { "rank": "K", "suit": "H" }],
+        [{ "rank": "A", "suit": "C" }, { "rank": "Q", "suit": "D" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "9", "suit": "C" }]
+      ],
+      "client_round_busts": [2],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[5.4], [1.2], [3.1]],
+      "total_game_time": 9.75000000
+    },
+    "25": {
+      "team_name": "Handshake_Heroes",
+      "number_of_rounds": 1,
+      "game_stats": { "3": 1, "2": 0, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "K", "suit": "S" }, { "rank": "9", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "6", "suit": "H" }, { "rank": "7", "suit": "C" }, { "rank": "5", "suit": "S" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.4]],
+      "total_game_time": 1.42000000
+    },
+    "26": {
+      "team_name": "Syntax_Error",
+      "number_of_rounds": 4,
+      "game_stats": { "3": 0, "2": 4, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "J", "suit": "H" }, { "rank": "5", "suit": "C" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "Q", "suit": "S" }, { "rank": "6", "suit": "H" }, { "rank": "8", "suit": "C" }],
+        [{ "rank": "10", "suit": "D" }, { "rank": "4", "suit": "S" }, { "rank": "K", "suit": "H" }],
+        [{ "rank": "7", "suit": "C" }, { "rank": "7", "suit": "D" }, { "rank": "8", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "K", "suit": "C" }, { "rank": "Q", "suit": "D" }],
+        [{ "rank": "A", "suit": "H" }, { "rank": "J", "suit": "S" }],
+        [{ "rank": "9", "suit": "H" }, { "rank": "8", "suit": "C" }],
+        [{ "rank": "10", "suit": "S" }, { "rank": "9", "suit": "D" }]
+      ],
+      "client_round_busts": [0, 1, 2, 3],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.3], [2.1], [2.5], [2.4]],
+      "total_game_time": 9.35000000
+    },
+    "27": {
+      "team_name": "Null_Pointers",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 2, "2": 0, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "10", "suit": "C" }],
+        [{ "rank": "A", "suit": "S" }, { "rank": "9", "suit": "D" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "5", "suit": "D" }, { "rank": "6", "suit": "S" }, { "rank": "K", "suit": "H" }],
+        [{ "rank": "J", "suit": "C" }, { "rank": "Q", "suit": "D" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [0],
+      "client_response_time_in_game": [[1.8], [1.7]],
+      "total_game_time": 3.53000000
+    },
+    "28": {
+      "team_name": "Binary_Bandits",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 1, "2": 1, "1": 1 },
+      "client_game_cards": [
+        [{ "rank": "6", "suit": "D" }, { "rank": "4", "suit": "C" }, { "rank": "J", "suit": "S" }],
+        [{ "rank": "8", "suit": "H" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "Q", "suit": "C" }, { "rank": "K", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "7", "suit": "D" }],
+        [{ "rank": "J", "suit": "C" }, { "rank": "A", "suit": "S" }],
+        [{ "rank": "9", "suit": "H" }, { "rank": "A", "suit": "D" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.2], [1.5], [1.6]],
+      "total_game_time": 5.34000000
+    },
+    "29": {
+      "team_name": "Logic_Bombs",
+      "number_of_rounds": 1,
+      "game_stats": { "3": 0, "2": 1, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "2", "suit": "H" }, { "rank": "A", "suit": "D" }, { "rank": "9", "suit": "C" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "K", "suit": "S" }, { "rank": "Q", "suit": "H" }]
+      ],
+      "client_round_busts": [0],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.9]],
+      "total_game_time": 2.94000000
+    },
+    "30": {
+      "team_name": "Code_Monkeys",
+      "number_of_rounds": 4,
+      "game_stats": { "3": 2, "2": 2, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "10", "suit": "D" }, { "rank": "7", "suit": "C" }],
+        [{ "rank": "K", "suit": "S" }, { "rank": "8", "suit": "H" }],
+        [{ "rank": "5", "suit": "C" }, { "rank": "5", "suit": "S" }, { "rank": "A", "suit": "H" }],
+        [{ "rank": "Q", "suit": "D" }, { "rank": "J", "suit": "C" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "6", "suit": "H" }, { "rank": "5", "suit": "D" }, { "rank": "7", "suit": "S" }],
+        [{ "rank": "9", "suit": "C" }, { "rank": "K", "suit": "H" }],
+        [{ "rank": "10", "suit": "D" }, { "rank": "8", "suit": "S" }],
+        [{ "rank": "A", "suit": "C" }, { "rank": "K", "suit": "S" }]
+      ],
+      "client_round_busts": [2],
+      "server_round_busts": [0],
+      "client_response_time_in_game": [[1.6], [1.7], [3.2], [1.5]],
+      "total_game_time": 8.05000000
+    },
+    "31": {
+      "team_name": "Data_Miners",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 1, "2": 1, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "J", "suit": "C" }, { "rank": "A", "suit": "D" }],
+        [{ "rank": "8", "suit": "S" }, { "rank": "8", "suit": "H" }, { "rank": "6", "suit": "C" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "S" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "K", "suit": "H" }, { "rank": "7", "suit": "C" }]
+      ],
+      "client_round_busts": [0, 1],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.1], [3.5]],
+      "total_game_time": 5.65000000
+    },
+    "32": {
+      "team_name": "Algorithm_Avengers",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 2, "2": 0, "1": 1 },
+      "client_game_cards": [
+        [{ "rank": "K", "suit": "D" }, { "rank": "9", "suit": "S" }],
+        [{ "rank": "Q", "suit": "C" }, { "rank": "Q", "suit": "H" }],
+        [{ "rank": "A", "suit": "S" }, { "rank": "8", "suit": "H" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "9", "suit": "C" }],
+        [{ "rank": "J", "suit": "S" }, { "rank": "5", "suit": "D" }, { "rank": "K", "suit": "C" }],
+        [{ "rank": "9", "suit": "D" }, { "rank": "A", "suit": "C" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [1],
+      "client_response_time_in_game": [[1.5], [1.4], [1.6]],
+      "total_game_time": 4.55000000
+    },
+    "33": {
+      "team_name": "Firewall_Fighters",
+      "number_of_rounds": 1,
+      "game_stats": { "3": 0, "2": 1, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "5", "suit": "D" }, { "rank": "6", "suit": "C" }, { "rank": "K", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "H" }, { "rank": "8", "suit": "D" }]
+      ],
+      "client_round_busts": [],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[2.8]],
+      "total_game_time": 2.82000000
+    },
+    "34": {
+      "team_name": "Encryption_Enthusiasts",
+      "number_of_rounds": 2,
+      "game_stats": { "3": 1, "2": 1, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "A", "suit": "H" }, { "rank": "10", "suit": "C" }],
+        [{ "rank": "3", "suit": "S" }, { "rank": "3", "suit": "D" }, { "rank": "3", "suit": "C" }, { "rank": "3", "suit": "H" }, { "rank": "K", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "9", "suit": "D" }, { "rank": "8", "suit": "S" }],
+        [{ "rank": "10", "suit": "H" }, { "rank": "J", "suit": "D" }]
+      ],
+      "client_round_busts": [0, 1],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.2], [5.1]],
+      "total_game_time": 6.35000000
+    },
+    "35": {
+      "team_name": "The_Debuggers",
+      "number_of_rounds": 3,
+      "game_stats": { "3": 0, "2": 3, "1": 0 },
+      "client_game_cards": [
+        [{ "rank": "8", "suit": "C" }, { "rank": "6", "suit": "H" }],
+        [{ "rank": "J", "suit": "S" }, { "rank": "5", "suit": "D" }, { "rank": "7", "suit": "H" }],
+        [{ "rank": "9", "suit": "C" }, { "rank": "8", "suit": "S" }]
+      ],
+      "server_game_cards": [
+        [{ "rank": "10", "suit": "D" }, { "rank": "5", "suit": "S" }, { "rank": "4", "suit": "H" }],
+        [{ "rank": "K", "suit": "C" }, { "rank": "9", "suit": "D" }],
+        [{ "rank": "A", "suit": "H" }, { "rank": "Q", "suit": "S" }]
+      ],
+      "client_round_busts": [1],
+      "server_round_busts": [],
+      "client_response_time_in_game": [[1.9], [3.0], [2.1]],
+      "total_game_time": 7.05000000
+    }
+  }
+}
