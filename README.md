@@ -1,215 +1,243 @@
-# 🃏 Blackjack Client–Server Game
 
-A full-featured Blackjack game implemented with a **custom UDP + TCP protocol**, including a real-time multiplayer server, interactive CLI client, persistent game storage, and an advanced **statistics dashboard**.
+# 🃏 Blackjack Multiplayer Game System
 
-This project was built as a networking-focused system, emphasizing protocol design, concurrency, data serialization, robustness, and post-game analytics.
+A fully featured Blackjack application built on a **custom-designed UDP and TCP communication protocol**, featuring a real-time multiplayer server, an interactive command-line client, persistent game state management, and a comprehensive **statistics dashboard**.
 
----
+The system was developed with a strong focus on networking architecture, including protocol design, concurrent connection handling, data serialization, fault tolerance, and post-game analytical reporting.
 
-## ✨ Key Features
+This project was developed as part of a competitive **networking hackathon**, 
+where it was recognized as the **winning submission** for its technical depth, architectural design, and overall execution.
 
-* **Automatic server discovery** using UDP broadcast (because hardcoding IPs is for quitters)
-* **Reliable gameplay communication** over TCP with a custom binary protocol (no JSON was harmed in the making of this project)
-* **Concurrent multi-client server** using threading (yes, multiple players can lose simultaneously)
-* **Full Blackjack game logic** with dealer and player turns, exactly like the casino, but cheaper
-* **Two client implementations**:
+----------
 
-  * Terminal-based CLI client for the purists
-  * Advanced **Streamlit UI client** with animations, visual cards, and zero Vegas smells
-* **Persistent game history** stored using TinyDB (your losses are forever)
-* **Rich logging system** with colored, structured logs (because print() is not a logging strategy)
-* **Advanced analytics dashboard** built with Streamlit and Plotly
+## 💡 Key Skills Demonstrated
 
----
+Category
 
-## 🧠 Architecture Overview
+Skills
+
+**Networking**
+
+Custom UDP/TCP binary protocol design, socket programming, packet serialization, server discovery via broadcast
+
+**Concurrency**
+
+Multi-threaded server, thread-safe database access, singleton pattern, race condition handling
+
+**Architecture**
+
+Clean separation of concerns, modular design, shared libraries, cross-platform scripting
+
+**Data & Analytics**
+
+Real-time statistics, Plotly visualizations, persistent storage, data aggregation
+
+**Software Engineering**
+
+Structured logging, error handling, input validation, protocol versioning with magic cookies
+
+----------
+
+## 🏗️ Architecture
 
 ```
-ClientCLI.py / ClientUI.py  <---TCP--->  Server.py
-        ^                                    |
-        |                                    v
-   UDP Discovery                       GameManager.py
-                                            |
-                                            v
-                                      TinyDBWrapper.py
-                                            |
-                                            v
-                                      StatisticsUI.py
-```
+┌─────────────────┐         UDP Broadcast          ┌─────────────────┐
+│                 │ ◄──────────────────────────────│                 │
+│   CLI Client    │                                │                 │
+│   (cli.py)      │ ◄──────── TCP ────────────────►│     Server      │
+│                 │                                │   (server.py)   │
+├─────────────────┤                                │                 │
+│                 │                                │        │        │
+│   GUI Client    │ ◄──────── TCP ────────────────►│        ▼        │
+│   (ui.py)       │                                │  Game Manager   │
+│                 │                                │        │        │
+└─────────────────┘                                │        ▼        │
+                                                   │    TinyDB       │
+┌─────────────────┐                                │   (storage)     │
+│   Dashboard     │ ◄───── Reads Game Data ────────│                 │
+│   (app.py)      │                                └─────────────────┘
+└─────────────────┘
 
 ```
 
+----------
+
+## ✨ Features
+
+### 🌐 Networking
+
+-   **UDP Broadcast** - Automatic server discovery without hardcoded IPs
+-   **TCP Communication** - Reliable gameplay with custom binary protocol
+-   **Magic Cookie Validation** - Protocol integrity verification
+-   **Fixed-size Payloads** - Efficient binary serialization using `struct`
+
+### 🎮 Game System
+
+-   **Full Blackjack Logic** - Hit, stand, bust detection, dealer AI (draws until ≥17)
+-   **Multi-client Support** - Concurrent players with isolated game states
+-   **Two Client Options** - Terminal CLI or animated Streamlit GUI
+
+### 📊 Analytics Dashboard
+
+-   Win/Loss/Tie distributions
+-   Player vs Dealer hand value analysis
+-   Bust rate tracking
+-   Response time metrics
+-   Team leaderboard with win rates
+
+### 🔧 Engineering
+
+-   Thread-safe singleton database wrapper
+-   Colored, structured logging system
+-   Cross-platform run scripts (Linux/Windows/PowerShell)
+-   Clean modular architecture
+
+## 📸 GUI Screenshots
+
+<details> <summary>Click to expand screenshots</summary>
+
+### GUI Client
+![enter image description here](https://image2url.com/r2/default/images/1771811256144-6f89cbe4-ae7e-43a2-929c-43c2d4137b9d.png)
+### Statistics Dashboard
+
+![enter image description here](https://image2url.com/r2/default/images/1771810699801-6ad6a5b6-fd49-4cbe-b02c-d37d6137c961.png)
+
+</details>
 ---
+
+
+## 🛠️ Tech Stack
+
+### 🌐 Networking
+
+* `socket` · `struct` · `threading`
+
+### ♠️ Game Logic
+
+* Pure Python with OOP design
+
+### 💾 Persistence
+
+* TinyDB with caching middleware
+
+### 🖥️ CLI Client
+
+* Colorama for colored terminal output
+
+### 🎨 GUI Client
+
+* Streamlit with custom CSS animations
+
+### 📊 Dashboard
+
+* Streamlit · Plotly · Pandas · NumPy
+
 
 ## 📂 Project Structure
 
 ```
-
-.
-├── Card.py               # Card model, encoding, decoding, emojis
-├── ClientCLI.py          # Interactive CLI Blackjack client
-├── ClientUI.py           # Streamlit-based graphical client with animations
-├── Server.py             # Multiplayer game server (the house always runs here)
-├── GameManager.py        # Core Blackjack game logic
-├── Packets.py            # Custom UDP/TCP protocol definitions
-├── Logger.py             # Colored, structured logging system
-├── TinyDBWrapper.py      # Thread-safe persistent storage
-├── StatisticsUI.py       # Streamlit analytics dashboard
-├── db.json               # Persistent game database (real games)
-├── db_mock.json          # Mock database for testing and demo
+BlackJack-Hackaton/
+│
+├── client/                          # Client-side applications
+│   ├── cli.py                       # Terminal-based Blackjack client
+│   └── ui.py                        # Streamlit GUI client with animations
+│
+├── server/                          # Server-side components
+│   ├── server.py                    # Concurrent multiplayer game server
+│   └── game_manager.py              # Core game logic & state management
+│
+├── shared/                          # Shared modules (client & server)
+│   ├── card.py                      # Card model with binary encoding/decoding
+│   ├── packets.py                   # Custom UDP/TCP protocol definitions
+│   └── logger.py                    # Colored, structured logging system
+│
+├── storage/                         # Data persistence layer
+│   ├── wrapper.py                   # Thread-safe TinyDB singleton
+│   └── data/
+│       ├── db.json                  # Game history database
+│       └── db_mock.json             # Mock data for testing
+│
+├── statistics_dashboard/            # Analytics & visualization
+│   └── app.py                       # Streamlit dashboard with Plotly
+│
+├── utilities/
+│   └── scripts/
+│       ├── linux/                   # Bash scripts (.sh)
+│       ├── windows/                 # Batch scripts (.bat)
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 ```
-.
-├── Card.py               # Card model, encoding, decoding, emojis
-├── ClientCLI.py          # Interactive CLI Blackjack client
-├── ClientUI.py           # Streamlit-based graphical client with animations
-├── Server.py             # Multiplayer game server
-├── GameManager.py        # Core Blackjack game logic
-├── Packets.py            # Custom UDP/TCP protocol definitions
-├── Logger.py             # Colored, structured logging system
-├── TinyDBWrapper.py      # Thread-safe persistent storage
-├── StatisticsUI.py       # Streamlit analytics dashboard
-├── db.json               # Persistent game database (real games)
-├── db_mock.json          # Mock database for testing and demo
-```
 
-.
-├── Card.py               # Card model, encoding, decoding, emojis
-├── ClientCLI.py          # Interactive Blackjack client
-├── Server.py             # Multiplayer game server
-├── GameManager.py        # Core Blackjack game logic
-├── Packets.py            # Custom UDP/TCP protocol definitions
-├── Logger.py             # Colored, structured logging system
-├── TinyDBWrapper.py      # Thread-safe persistent storage
-├── StatisticsUI.py       # Streamlit analytics dashboard
-├── db.json               # Game history database
+----------
 
-````
+## 🚀 Quick Start
 
----
-
-## 🌐 Networking Protocol
-
-### UDP
-- Used only for **server discovery**
-- Broadcasts server name and TCP port
-- Custom packet with magic cookie validation
-
-### TCP
-- Used for the full game lifecycle
-- Binary messages with:
-  - Magic cookie
-  - Message type
-  - Fixed-size payloads
-- Supports:
-  - Game requests
-  - Card transfers
-  - Player decisions
-  - Round results
-  - Validation messages
-
----
-
-## 🎮 Gameplay Flow
-
-1. Client listens for UDP offers or connects manually
-2. Client establishes a TCP connection with the server
-3. Client sends team name and number of rounds
-4. Server validates the request and initializes a game session
-5. Game rounds begin
-6. Each round includes:
-   - Initial deal to player and dealer
-   - Player decision loop (Hit or Stand)
-   - Dealer automated logic (draw until >= 17)
-   - Result calculation and validation
-7. Detailed round and game statistics are collected
-8. Full game data is persisted to the database
-
-
----
-
-## 📊 Statistics Dashboard
-
-The project includes a **Streamlit-based analytics UI** that visualizes:
-
-- Win, loss, and tie distributions
-- Player and dealer hand values
-- Bust rates
-- Hit behavior analysis
-- Response times per round and per game
-- Total game duration
-- Network data usage per game
-- Team leaderboard with win rates
-
-To run the dashboard:
+### Prerequisites
 
 ```bash
-streamlit run StatisticsUI.py
-````
-
----
-
-## 🛠️ Technologies Used
-
-* Python 3
-* socket, struct, threading
-* TinyDB
-* Streamlit
-* Plotly
-* Pandas, NumPy
-* Colorama
-
----
-
-## 🚀 How to Run
-
-### Start the Server
-
-```bash
-python Server.py
+pip install -r requirements.txt
 ```
 
-### Start a CLI Client
+### Run the Server
 
 ```bash
-python ClientCLI.py
+# Linux/Mac
+utilities\scripts\linux\run_server.sh
+
+# Windows CMD
+utilities\scripts\windows\run_server.bat
 ```
 
-### Start the Graphical UI Client
+### Run a Client
 
 ```bash
-streamlit run ClientUI.py
+# -- CLI Client: --
+# Linux/Mac
+utilities\scripts\linux\run_client.sh
+
+# Windows CMD
+utilities\scripts\windows\run_client.bat
+
+# -- GUI Client (Streamlit): --
+# Linux/Mac
+utilities\scripts\linux\run_client_ui.sh
+
+# Windows CMD
+utilities\scripts\windows\run_client_ui.bat
+```
+> 💡 Multiple clients can connect simultaneously - try running both CLI and GUI clients!
+
+### View Analytics Dashboard
+```bash
+# Linux/Mac
+utilities\scripts\linux\run_dashboard.sh
+
+# Windows CMD
+utilities\scripts\windows\run_dashboard.bat
 ```
 
-Multiple clients can connect simultaneously, including a mix of CLI and UI clients.
+## 🌐 Protocol Specification
+
+### UDP Discovery Packet (Server --> Client)
+
+| Field         | Size     | Description              |
+|--------------|----------|--------------------------|
+| Magic Cookie | 4 bytes  | `0xABCDDCBA`             |
+| Message Type | 1 byte   | `0x02` (Offer)           |
+| TCP Port     | 2 bytes  | Server's TCP port        |
+| Server Name  | 32 bytes | Null-padded string       |
 
 ---
 
-## 🧪 Design Highlights
+### TCP Message Format
 
-* Custom binary protocol with strict validation and magic cookies (the tasty kind)
-* Clear separation between networking, game logic, persistence, and UI layers
-* Thread-safe database access with a singleton pattern
-* Deterministic server-side game flow, the dealer never cheats, the code does not lie
-* Support for both CLI and graphical clients without protocol duplication
-* Extensive logging for debugging, analysis, and mild emotional support
+| Field         | Size     | Description                     |
+|--------------|----------|---------------------------------|
+| Magic Cookie | 4 bytes  | `0xABCDDCBA`                    |
+| Message Type | 1 byte   | Request / Payload / Validation  |
+| Payload      | Variable | Type-dependent data             |
 
----
-
-## 📌 Notes
-
-* The server runs indefinitely and accepts multiple clients
-* All game data is persisted automatically
-* Dashboard supports historical analysis across all games
-
----
-
-## 🏆 Final Words
-
-This project demonstrates a complete end-to-end **networked software system**, combining low-level socket programming with high-level user experience and data analytics.
-
-It showcases protocol design, concurrency handling, clean architecture, persistence, and visualization, all built from scratch with careful attention to software engineering principles.
-
-In short: this is not just a Blackjack game.
-
-It is a distributed system that happens to gamble.
+----------
