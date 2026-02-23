@@ -93,10 +93,10 @@ Structured logging, error handling, input validation, protocol versioning with m
 <details> <summary>Click to expand screenshots</summary>
 
 ### GUI Client
-![ui.png](https://ibb.co/5h3Pzn2n)
+![ui.png](https://imgur.com/a/dKVLBjg)
 
 ### Statistics Dashboard
-![dashboard.png](https://ibb.co/60PtsL4T)
+![dashboard.png](https://imgur.com/a/xEeCpi4)
 
 </details>
 ---
