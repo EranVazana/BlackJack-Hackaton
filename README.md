@@ -98,8 +98,8 @@ Structured logging, error handling, input validation, protocol versioning with m
 
 ### GUI Client
 ![enter image description here](https://image2url.com/r2/default/images/1771811256144-6f89cbe4-ae7e-43a2-929c-43c2d4137b9d.png)
-### Statistics Dashboard
 
+### Statistics Dashboard
 ![enter image description here](https://image2url.com/r2/default/images/1771810699801-6ad6a5b6-fd49-4cbe-b02c-d37d6137c961.png)
 
 </details>
