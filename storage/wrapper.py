@@ -3,7 +3,6 @@ from tinydb import TinyDB, Query
 from tinydb.storages import JSONStorage
 from tinydb.middlewares import CachingMiddleware
 
-
 class TinyDBWrapper:
     # Input: none
     # Output: singleton instances per (path, table_name)
@@ -14,7 +13,7 @@ class TinyDBWrapper:
     # Input: path (str), table_name (str)
     # Output: TinyDBWrapper instance
     # Description: Ensures only one instance exists per database path and table.
-    def __new__(cls, path: str = "db.json", table_name: str = "games"):
+    def __new__(cls, path: str = "data\\db.json", table_name: str = "games"):
         key = (path, table_name)
         with cls._instances_lock:
             if key not in cls._instances:
@@ -26,7 +25,7 @@ class TinyDBWrapper:
     # Input: path (str), table_name (str)
     # Output: none
     # Description: Initializes TinyDB connection and table if not already initialized.
-    def __init__(self, path: str = "db.json", table_name: str = "games"):
+    def __init__(self, path: str = "data\\db.json", table_name: str = "games"):
         if getattr(self, "_initialized", False):
             return
 

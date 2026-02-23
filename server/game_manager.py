@@ -1,9 +1,9 @@
-from Card import Card
-from Packets import TCP
-from TinyDBWrapper import TinyDBWrapper
 import random
 import time
 
+from shared.card import Card
+from shared.packets import TCP
+from storage.wrapper import TinyDBWrapper
 
 class ServerGameManager:
     # Input: number_of_rounds (int), team_name (str)

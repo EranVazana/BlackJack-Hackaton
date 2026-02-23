@@ -20,7 +20,7 @@ CARD_VALUES = {
 
 SUIT_SYMBOLS = {'H': '♥️', 'D': '♦️', 'C': '♣️', 'S': '♠️'}
 
-def load_data(file_path: str = "db_mock.json") -> dict:
+def load_data(file_path: str = "storage/data/db_mock.json") -> dict:
     """Load game data from JSON file"""
     try:
         with open(file_path, 'r') as f:
@@ -323,7 +323,7 @@ def main():
     st.markdown('<div class="subtitle">GAME ANALYTICS DASHBOARD</div>', unsafe_allow_html=True)
     
     # Load and process data
-    data = load_data("db_mock.json")
+    data = load_data()
     
     if not data:
         st.error("No data found. Please ensure db_mock.json is in the same directory.")

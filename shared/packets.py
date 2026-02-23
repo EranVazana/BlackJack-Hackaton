@@ -1,9 +1,8 @@
 import struct
 import socket
 
-from Card import Card
-
-from Logger import get_logger
+from shared.card import Card
+from shared.logger import get_logger
 
 # Input: none
 # Output: local IP address string
@@ -16,7 +15,6 @@ def get_local_ip():
     finally:
         temp_socket.close()
     return ip
-    
     
 class UDP:
     MAGIC_COOKIE = 0xabcddcba

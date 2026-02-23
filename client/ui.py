@@ -5,20 +5,20 @@ Matches ClientCLI.py protocol with smooth animations
 Flow: Connect to Server -> Enter Name/Rounds -> Play Game
 """
 
+import os
 import socket
-import struct
 import subprocess
 import time
 import json
-import os
 import sys
 from typing import Optional, List
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import streamlit as st
 
-# Import your existing modules
-from Packets import UDP, TCP
-from Card import Card
+from shared.card import Card
+from shared.packets import TCP, UDP
 
 # States
 STATE_DISCONNECTED = "disconnected"

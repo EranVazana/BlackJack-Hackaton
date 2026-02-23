@@ -1,14 +1,12 @@
 import socket
-import struct
 
 import time
 import threading
 
-from Card import Card
-from Packets import UDP, TCP, get_local_ip
-from GameManager import ServerGameManager, get_result_as_string
-
-from Logger import get_logger
+from shared.card import Card
+from shared.packets import TCP, UDP, get_local_ip
+from shared.logger import get_logger
+from server.game_manager import ServerGameManager, get_result_as_string
 
 class Server:
     # Input: none

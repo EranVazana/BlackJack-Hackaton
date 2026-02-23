@@ -1,10 +1,10 @@
 import socket
 
-from Packets import UDP, TCP
-from Card import Card
-from GameManager import get_result_as_string
+from shared.card import Card
+from shared.packets import TCP, UDP
+from shared.logger import get_logger
 
-from Logger import get_logger
+from server.game_manager import get_result_as_string
 
 class Client:
     # Input: none
