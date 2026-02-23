@@ -94,16 +94,10 @@ Structured logging, error handling, input validation, protocol versioning with m
 
 ### GUI Client
 <img width="1920" height="919" alt="1771811256144-6f89cbe4-ae7e-43a2-929c-43c2d4137b9d(1)" src="https://github.com/user-attachments/assets/a1869c13-99c1-442c-a409-9b2a8eaa2535" />
-<img width="1920" height="919" alt="1771811256144-6f89cbe4-ae7e-43a2-929c-43c2d4137b9d(1)" src="https://github.com/user-attachments/assets/a1869c13-99c1-442c-a409-9b2a8eaa2535" />
-<img width="1920" height="919" alt="1771811256144-6f89cbe4-ae7e-43a2-929c-43c2d4137b9d(3)" src="https://github.com/user-attachments/assets/e65e44b8-67f9-4c05-815f-6a440155c186" />
-<img width="1920" height="919" alt="1771811256144-6f89cbe4-ae7e-43a2-929c-43c2d4137b9d(3)" src="https://github.com/user-attachments/assets/e65e44b8-67f9-4c05-815f-6a440155c186" />
 
 
 ### Statistics Dashboard
 <img width="1920" height="919" alt="1771810699801-6ad6a5b6-fd49-4cbe-b02c-d37d6137c961" src="https://github.com/user-attachments/assets/a7d0e0e2-6810-4a59-8939-d6f2d5731b11" />
-<img width="1920" height="919" alt="1771810699801-6ad6a5b6-fd49-4cbe-b02c-d37d6137c961" src="https://github.com/user-attachments/assets/a7d0e0e2-6810-4a59-8939-d6f2d5731b11" />
-<img width="1920" height="919" alt="1771810699801-6ad6a5b6-fd49-4cbe-b02c-d37d6137c961" src="https://github.com/user-attachments/assets/ae5ae500-6634-492b-9a84-49e763ab561b" />
-<img width="1920" height="919" alt="1771810699801-6ad6a5b6-fd49-4cbe-b02c-d37d6137c961" src="https://github.com/user-attachments/assets/ae5ae500-6634-492b-9a84-49e763ab561b" />
 
 </details>
 ---
