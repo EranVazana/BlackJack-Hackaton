@@ -12,27 +12,23 @@ where it was recognized as the **winning submission** for its technical depth, a
 
 ## 💡 Key Skills Demonstrated
 
-Category
-
-Skills
-
-**Networking**
+🌐 Networking:
 
 Custom UDP/TCP binary protocol design, socket programming, packet serialization, server discovery via broadcast
 
-**Concurrency**
+⚡ Concurrency:
 
 Multi-threaded server, thread-safe database access, singleton pattern, race condition handling
 
-**Architecture**
+🏛️ Architecture:
 
 Clean separation of concerns, modular design, shared libraries, cross-platform scripting
 
-**Data & Analytics**
+📊 Data & Analytics:
 
-Real-time statistics, Plotly visualizations, persistent storage, data aggregation
+Real-time statistics, visualizations, persistent storage, data aggregation
 
-**Software Engineering**
+🛠️ Software Engineering:
 
 Structured logging, error handling, input validation, protocol versioning with magic cookies
 
@@ -64,20 +60,20 @@ Structured logging, error handling, input validation, protocol versioning with m
 
 ## ✨ Features
 
-### 🌐 Networking
+### 🌐 Networking:
 
 -   **UDP Broadcast** - Automatic server discovery without hardcoded IPs
 -   **TCP Communication** - Reliable gameplay with custom binary protocol
 -   **Magic Cookie Validation** - Protocol integrity verification
 -   **Fixed-size Payloads** - Efficient binary serialization using `struct`
 
-### 🎮 Game System
+### 🎮 Game System:
 
 -   **Full Blackjack Logic** - Hit, stand, bust detection, dealer AI (draws until ≥17)
 -   **Multi-client Support** - Concurrent players with isolated game states
 -   **Two Client Options** - Terminal CLI or animated Streamlit GUI
 
-### 📊 Analytics Dashboard
+### 📊 Analytics Dashboard:
 
 -   Win/Loss/Tie distributions
 -   Player vs Dealer hand value analysis
@@ -85,7 +81,7 @@ Structured logging, error handling, input validation, protocol versioning with m
 -   Response time metrics
 -   Team leaderboard with win rates
 
-### 🔧 Engineering
+### 🔧 Engineering:
 
 -   Thread-safe singleton database wrapper
 -   Colored, structured logging system
@@ -108,27 +104,27 @@ Structured logging, error handling, input validation, protocol versioning with m
 
 ## 🛠️ Tech Stack
 
-### 🌐 Networking
+### 🌐 Networking:
 
 * `socket` · `struct` · `threading`
 
-### ♠️ Game Logic
+### ♠️ Game Logic:
 
 * Pure Python with OOP design
 
-### 💾 Persistence
+### 💾 Persistence:
 
 * TinyDB with caching middleware
 
-### 🖥️ CLI Client
+### 🖥️ CLI Client:
 
 * Colorama for colored terminal output
 
-### 🎨 GUI Client
+### 🎨 GUI Client:
 
 * Streamlit with custom CSS animations
 
-### 📊 Dashboard
+### 📊 Dashboard:
 
 * Streamlit · Plotly · Pandas · NumPy
 
